@@ -22,6 +22,16 @@
 		8D78D8091BEE005200FC1735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78D7E81BEE005100FC1735 /* UIKit.framework */; };
 		8D78D8111BEE005200FC1735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D78D80F1BEE005200FC1735 /* InfoPlist.strings */; };
 		8D78D8131BEE005200FC1735 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D78D8121BEE005200FC1735 /* SampleTests.m */; };
+		8D78D81D1BEE00B600FC1735 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78D81C1BEE00B600FC1735 /* MapKit.framework */; };
+		8D9606F01BF1B5840003B2E4 /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9606EF1BF1B5840003B2E4 /* Case.m */; };
+		8D9606F31BF1B6CE0003B2E4 /* CaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9606F21BF1B6CE0003B2E4 /* CaseListController.m */; };
+		8D9606F51BF1B95C0003B2E4 /* CaseList_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9606F41BF1B95C0003B2E4 /* CaseList_iPhone.storyboard */; };
+		8D9606F71BF1B9D80003B2E4 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */; };
+		8D9681381BF5A66100B43303 /* gradient.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681371BF5A66100B43303 /* gradient.jpeg */; };
+		8D96813A1BF5A71A00B43303 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681391BF5A71A00B43303 /* grass.png */; };
+		8D9681811BF5EC3600B43303 /* CaseDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9681801BF5EC3600B43303 /* CaseDetailController.m */; };
+		8D9681851BF5ECC700B43303 /* CaseDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681841BF5ECC700B43303 /* CaseDetailController.xib */; };
+		8DE14B551BF35DF80050DF96 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE14B541BF35DF80050DF96 /* dice.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,19 @@
 		8D78D80E1BEE005200FC1735 /* SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTests-Info.plist"; sourceTree = "<group>"; };
 		8D78D8101BEE005200FC1735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D78D8121BEE005200FC1735 /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		8D78D81C1BEE00B600FC1735 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8D9606EE1BF1B5840003B2E4 /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		8D9606EF1BF1B5840003B2E4 /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
+		8D9606F11BF1B6CE0003B2E4 /* CaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseListController.h; sourceTree = "<group>"; };
+		8D9606F21BF1B6CE0003B2E4 /* CaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseListController.m; sourceTree = "<group>"; };
+		8D9606F41BF1B95C0003B2E4 /* CaseList_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CaseList_iPhone.storyboard; sourceTree = "<group>"; };
+		8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		8D9681371BF5A66100B43303 /* gradient.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gradient.jpeg; path = ../../../Downloads/gradient.jpeg; sourceTree = "<group>"; };
+		8D9681391BF5A71A00B43303 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grass.png; path = ../../../Downloads/grass.png; sourceTree = "<group>"; };
+		8D96817F1BF5EC3600B43303 /* CaseDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseDetailController.h; sourceTree = "<group>"; };
+		8D9681801BF5EC3600B43303 /* CaseDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseDetailController.m; sourceTree = "<group>"; };
+		8D9681841BF5ECC700B43303 /* CaseDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CaseDetailController.xib; path = ../CaseDetailController.xib; sourceTree = "<group>"; };
+		8DE14B541BF35DF80050DF96 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice.png; path = ../../../Downloads/dice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +87,7 @@
 			files = (
 				8D78D7E71BEE005100FC1735 /* CoreGraphics.framework in Frameworks */,
 				8D78D7E91BEE005100FC1735 /* UIKit.framework in Frameworks */,
+				8D78D81D1BEE00B600FC1735 /* MapKit.framework in Frameworks */,
 				8D78D7E51BEE005100FC1735 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +127,7 @@
 		8D78D7E31BEE005100FC1735 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D78D81C1BEE00B600FC1735 /* MapKit.framework */,
 				8D78D7E41BEE005100FC1735 /* Foundation.framework */,
 				8D78D7E61BEE005100FC1735 /* CoreGraphics.framework */,
 				8D78D7E81BEE005100FC1735 /* UIKit.framework */,
@@ -114,12 +139,21 @@
 		8D78D7EA1BEE005100FC1735 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				8D9606EE1BF1B5840003B2E4 /* Case.h */,
+				8D9606EF1BF1B5840003B2E4 /* Case.m */,
+				8D9606F11BF1B6CE0003B2E4 /* CaseListController.h */,
+				8D9606F21BF1B6CE0003B2E4 /* CaseListController.m */,
 				8D78D7F31BEE005100FC1735 /* SampleAppDelegate.h */,
 				8D78D7F41BEE005100FC1735 /* SampleAppDelegate.m */,
 				8D78D7F61BEE005100FC1735 /* Main_iPhone.storyboard */,
+				8D9606F41BF1B95C0003B2E4 /* CaseList_iPhone.storyboard */,
 				8D78D7F91BEE005100FC1735 /* Main_iPad.storyboard */,
 				8D78D7FC1BEE005100FC1735 /* SampleViewController.h */,
 				8D78D7FD1BEE005100FC1735 /* SampleViewController.m */,
+				8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */,
+				8D96817F1BF5EC3600B43303 /* CaseDetailController.h */,
+				8D9681801BF5EC3600B43303 /* CaseDetailController.m */,
+				8D9681841BF5ECC700B43303 /* CaseDetailController.xib */,
 				8D78D7FF1BEE005100FC1735 /* Images.xcassets */,
 				8D78D7EB1BEE005100FC1735 /* Supporting Files */,
 			);
@@ -129,10 +163,13 @@
 		8D78D7EB1BEE005100FC1735 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D9681371BF5A66100B43303 /* gradient.jpeg */,
+				8D9681391BF5A71A00B43303 /* grass.png */,
 				8D78D7EC1BEE005100FC1735 /* Sample-Info.plist */,
 				8D78D7ED1BEE005100FC1735 /* InfoPlist.strings */,
 				8D78D7F01BEE005100FC1735 /* main.m */,
 				8D78D7F21BEE005100FC1735 /* Sample-Prefix.pch */,
+				8DE14B541BF35DF80050DF96 /* dice.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -203,6 +240,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = nichepro;
 				TargetAttributes = {
+					8D78D7E01BEE005100FC1735 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					8D78D8041BEE005200FC1735 = {
 						TestTargetID = 8D78D7E01BEE005100FC1735;
 					};
@@ -232,10 +276,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9681851BF5ECC700B43303 /* CaseDetailController.xib in Resources */,
+				8D9606F51BF1B95C0003B2E4 /* CaseList_iPhone.storyboard in Resources */,
 				8D78D7FB1BEE005100FC1735 /* Main_iPad.storyboard in Resources */,
+				8DE14B551BF35DF80050DF96 /* dice.png in Resources */,
+				8D96813A1BF5A71A00B43303 /* grass.png in Resources */,
+				8D9606F71BF1B9D80003B2E4 /* SampleViewController.xib in Resources */,
 				8D78D8001BEE005100FC1735 /* Images.xcassets in Resources */,
 				8D78D7F81BEE005100FC1735 /* Main_iPhone.storyboard in Resources */,
 				8D78D7EF1BEE005100FC1735 /* InfoPlist.strings in Resources */,
+				8D9681381BF5A66100B43303 /* gradient.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D78D7F51BEE005100FC1735 /* SampleAppDelegate.m in Sources */,
+				8D9606F01BF1B5840003B2E4 /* Case.m in Sources */,
 				8D78D7F11BEE005100FC1735 /* main.m in Sources */,
+				8D9606F31BF1B6CE0003B2E4 /* CaseListController.m in Sources */,
+				8D9681811BF5EC3600B43303 /* CaseDetailController.m in Sources */,
 				8D78D7FE1BEE005100FC1735 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +448,7 @@
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,6 +462,7 @@
 				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
 				INFOPLIST_FILE = "Sample/Sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +526,7 @@
 				8D78D8181BEE005200FC1735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D78D8191BEE005200FC1735 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +535,7 @@
 				8D78D81B1BEE005200FC1735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

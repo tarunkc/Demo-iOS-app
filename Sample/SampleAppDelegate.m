@@ -7,11 +7,23 @@
 //
 
 #import "SampleAppDelegate.h"
+#import "SampleViewController.h"
 
 @implementation SampleAppDelegate
 
+@synthesize window = _window;
+@synthesize viewController = _viewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.viewController = [[SampleViewController alloc] init];
+    self.viewController = [[SampleViewController alloc] initWithNibName:@"SampleViewController" bundle:nil];
+    UINavigationController *navigationViewController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
+    self.window.rootViewController = navigationViewController;
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
