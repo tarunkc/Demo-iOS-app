@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5BF1211BF9A3F500C59536 /* CaseDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BF1201BF9A3F500C59536 /* CaseDetailController.xib */; };
+		8D5BF1251BF9A45400C59536 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BF1221BF9A45400C59536 /* dice.png */; };
+		8D5BF1261BF9A45400C59536 /* gradient.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BF1231BF9A45400C59536 /* gradient.jpeg */; };
+		8D5BF1271BF9A45400C59536 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5BF1241BF9A45400C59536 /* grass.png */; };
 		8D78D7E51BEE005100FC1735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78D7E41BEE005100FC1735 /* Foundation.framework */; };
 		8D78D7E71BEE005100FC1735 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78D7E61BEE005100FC1735 /* CoreGraphics.framework */; };
 		8D78D7E91BEE005100FC1735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D78D7E81BEE005100FC1735 /* UIKit.framework */; };
@@ -27,11 +31,7 @@
 		8D9606F31BF1B6CE0003B2E4 /* CaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9606F21BF1B6CE0003B2E4 /* CaseListController.m */; };
 		8D9606F51BF1B95C0003B2E4 /* CaseList_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9606F41BF1B95C0003B2E4 /* CaseList_iPhone.storyboard */; };
 		8D9606F71BF1B9D80003B2E4 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */; };
-		8D9681381BF5A66100B43303 /* gradient.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681371BF5A66100B43303 /* gradient.jpeg */; };
-		8D96813A1BF5A71A00B43303 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681391BF5A71A00B43303 /* grass.png */; };
 		8D9681811BF5EC3600B43303 /* CaseDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9681801BF5EC3600B43303 /* CaseDetailController.m */; };
-		8D9681851BF5ECC700B43303 /* CaseDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9681841BF5ECC700B43303 /* CaseDetailController.xib */; };
-		8DE14B551BF35DF80050DF96 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE14B541BF35DF80050DF96 /* dice.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D5BF1201BF9A3F500C59536 /* CaseDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaseDetailController.xib; sourceTree = "<group>"; };
+		8D5BF1221BF9A45400C59536 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice.png; path = ../../../../../Downloads/dice.png; sourceTree = "<group>"; };
+		8D5BF1231BF9A45400C59536 /* gradient.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gradient.jpeg; path = ../../../../../Downloads/gradient.jpeg; sourceTree = "<group>"; };
+		8D5BF1241BF9A45400C59536 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grass.png; path = ../../../../../Downloads/grass.png; sourceTree = "<group>"; };
 		8D78D7E11BEE005100FC1735 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D78D7E41BEE005100FC1735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D78D7E61BEE005100FC1735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,12 +76,8 @@
 		8D9606F21BF1B6CE0003B2E4 /* CaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseListController.m; sourceTree = "<group>"; };
 		8D9606F41BF1B95C0003B2E4 /* CaseList_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CaseList_iPhone.storyboard; sourceTree = "<group>"; };
 		8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
-		8D9681371BF5A66100B43303 /* gradient.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gradient.jpeg; path = ../../../Downloads/gradient.jpeg; sourceTree = "<group>"; };
-		8D9681391BF5A71A00B43303 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grass.png; path = ../../../Downloads/grass.png; sourceTree = "<group>"; };
 		8D96817F1BF5EC3600B43303 /* CaseDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseDetailController.h; sourceTree = "<group>"; };
 		8D9681801BF5EC3600B43303 /* CaseDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseDetailController.m; sourceTree = "<group>"; };
-		8D9681841BF5ECC700B43303 /* CaseDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CaseDetailController.xib; path = ../CaseDetailController.xib; sourceTree = "<group>"; };
-		8DE14B541BF35DF80050DF96 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice.png; path = ../../../Downloads/dice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 				8D9606F61BF1B9D80003B2E4 /* SampleViewController.xib */,
 				8D96817F1BF5EC3600B43303 /* CaseDetailController.h */,
 				8D9681801BF5EC3600B43303 /* CaseDetailController.m */,
-				8D9681841BF5ECC700B43303 /* CaseDetailController.xib */,
+				8D5BF1201BF9A3F500C59536 /* CaseDetailController.xib */,
 				8D78D7FF1BEE005100FC1735 /* Images.xcassets */,
 				8D78D7EB1BEE005100FC1735 /* Supporting Files */,
 			);
@@ -163,13 +163,13 @@
 		8D78D7EB1BEE005100FC1735 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D9681371BF5A66100B43303 /* gradient.jpeg */,
-				8D9681391BF5A71A00B43303 /* grass.png */,
+				8D5BF1221BF9A45400C59536 /* dice.png */,
+				8D5BF1231BF9A45400C59536 /* gradient.jpeg */,
+				8D5BF1241BF9A45400C59536 /* grass.png */,
 				8D78D7EC1BEE005100FC1735 /* Sample-Info.plist */,
 				8D78D7ED1BEE005100FC1735 /* InfoPlist.strings */,
 				8D78D7F01BEE005100FC1735 /* main.m */,
 				8D78D7F21BEE005100FC1735 /* Sample-Prefix.pch */,
-				8DE14B541BF35DF80050DF96 /* dice.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -276,16 +276,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9681851BF5ECC700B43303 /* CaseDetailController.xib in Resources */,
 				8D9606F51BF1B95C0003B2E4 /* CaseList_iPhone.storyboard in Resources */,
 				8D78D7FB1BEE005100FC1735 /* Main_iPad.storyboard in Resources */,
-				8DE14B551BF35DF80050DF96 /* dice.png in Resources */,
-				8D96813A1BF5A71A00B43303 /* grass.png in Resources */,
+				8D5BF1261BF9A45400C59536 /* gradient.jpeg in Resources */,
 				8D9606F71BF1B9D80003B2E4 /* SampleViewController.xib in Resources */,
 				8D78D8001BEE005100FC1735 /* Images.xcassets in Resources */,
 				8D78D7F81BEE005100FC1735 /* Main_iPhone.storyboard in Resources */,
+				8D5BF1271BF9A45400C59536 /* grass.png in Resources */,
+				8D5BF1211BF9A3F500C59536 /* CaseDetailController.xib in Resources */,
+				8D5BF1251BF9A45400C59536 /* dice.png in Resources */,
 				8D78D7EF1BEE005100FC1735 /* InfoPlist.strings in Resources */,
-				8D9681381BF5A66100B43303 /* gradient.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

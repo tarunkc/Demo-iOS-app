@@ -10,7 +10,9 @@
 #import "Case.h"
 
 @interface SampleViewController ()
-
+// HTTP Request
+@property (nonatomic, strong) NSMutableData *responseData;
+// HTTP Request
 @end
 
 @implementation SampleViewController
@@ -19,6 +21,11 @@
 //Table View
 @synthesize casesTableView, cases, caseDetailViewController;
 //Table View
+
+// HTTP Request
+@synthesize responseData = _responseData;
+// HTTP Request
+
 
 - (void)viewDidLoad
 {
@@ -36,6 +43,14 @@
         [self.cases addObject:newcase];
     }
     [self.casesTableView reloadData];
+    
+    
+    // HTTP Request
+    self.responseData = [NSMutableData data];
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:@"http://localhost:3000/api/v1/swagger_doc"]];
+    [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    // HTTP Request
 }
 
 - (void)didReceiveMemoryWarning
@@ -93,5 +108,55 @@
 }
 
 //Navigation
+
+
+
+// HTTP Request
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    NSLog(@"didReceiveResponse");
+    [self.responseData setLength:0];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [self.responseData appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    NSLog(@"didFailWithError");
+    NSLog([NSString stringWithFormat:@"Connection failed: %@", [error description]]);
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+    NSLog(@"connectionDidFinishLoading");
+    
+    NSLog(@"Succeeded! Received %lu bytes of data",(unsigned long)[self.responseData length]);
+    
+    // convert to JSON
+    NSError *myError = nil;
+    NSDictionary *res = [NSJSONSerialization JSONObjectWithData:self.responseData options:NSJSONReadingMutableLeaves error:&myError];
+    
+    NSLog(@"%@", [res allKeys]);
+    // show all values
+    for(id key in res) {
+        
+        id value = [res objectForKey:key];
+        
+        NSString *keyAsString = (NSString *)key;
+        NSString *valueAsString = (NSString *)value;
+        
+        NSLog(@"key: %@", keyAsString);
+        NSLog(@"value: %@", valueAsString);
+    }
+    
+    // extract specific value...
+    NSArray *results = [res objectForKey:@"results"];
+    
+    for (NSDictionary *result in results) {
+        NSString *icon = [result objectForKey:@"icon"];
+        NSLog(@"icon: %@", icon);
+    }
+    
+}
+// HTTP Request
 
 @end
